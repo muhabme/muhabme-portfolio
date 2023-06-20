@@ -43,3 +43,20 @@ body {
 .btn {
     @apply text-theme py-3 px-4 bg-transparent border border-theme rounded text-sm default-outline default-transition;
 }
+
+.swiper-slide {
+    height: auto !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    scale: 0.7;
+    @apply rounded-full p-8 flex-center -translate-y-4 translate-x-4;
+}
+.swiper-button-prev {
+    @apply -translate-x-4;
+}
+
+.swiper-button-next {
+    @apply translate-x-4;
+}
