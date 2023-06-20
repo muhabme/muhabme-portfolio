@@ -8,10 +8,6 @@ export const sectionLinks = [
         link: '/#projects',
     },
     {
-        name: 'Resume',
-        link: '/#resume',
-    },
-    {
         name: 'Contact',
         link: '/#contact',
     },
