@@ -8,7 +8,7 @@ export default function Hero() {
             <h2 className="text-giant text-lightest font-bold leading-[1.05]">
                 Muhab Gamal
             </h2>
-            <h3 className="font-bold text-2xl text-lightest">
+            <h3 className="font-bold text-3xl text-lightest">
                 A Full Stack Web Developer
             </h3>
             <p className=" text-lg mr-[40%]">
