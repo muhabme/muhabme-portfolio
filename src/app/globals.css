@@ -24,14 +24,8 @@
     --tgiant: clamp(40px, 8vw, 80px);
 }
 
-/* @media screen and (max-width: 480px) {
-    --tx2large: 25px;
-    // --tgiant: 40px;
-  } */
-
 body {
-    color: rgb(var(--foreground-rgb));
-    background: var(--background-color);
+    @apply bg-background text-lightest;
 }
 
 .flex-center {
@@ -43,5 +37,9 @@ body {
 }
 
 .default-outline {
-    @apply focus:outline-theme outline-2 outline-dashed outline-transparent;
+    @apply focus:outline-theme outline-dashed outline-transparent;
+}
+
+.btn {
+    @apply text-theme py-3 px-4 bg-transparent border border-theme rounded text-sm default-outline default-transition;
 }
