@@ -36,15 +36,15 @@ export default function About() {
                     <SkillsSwiper />
                 </div>
                 <div className="col-span-2 py-12">
-                    <div className="relative w-full aspect-square group">
+                    <div className="relative max-w-[350px] w-full aspect-square group mx-auto">
                         <div className="absolute z-50 bg-theme opacity-20 w-full h-full rounded-lg group-hover:opacity-0 default-transition" />
-                        <div className="absolute top-4 left-4 border-2 border-theme -z-10 w-full h-full rounded-lg group-hover:top-2 group-hover:left-2 default-transition" />
+                        <div className="absolute top-4 left-4 border-2 border-theme z-0 w-full h-full rounded-lg group-hover:top-2 group-hover:left-2 default-transition" />
                         <Image
                             src={profile}
                             alt="Muhab Gamal"
                             fill
                             style={{ objectFit: 'cover' }}
-                            className="[filter:grayscale(100%)] rounded-lg group-hover:[filter:none] transition-all duration-700"
+                            className="[filter:grayscale(100%)] rounded-lg group-hover:[filter:none] transition-all duration-700 z-10"
                         />
                     </div>
                 </div>
