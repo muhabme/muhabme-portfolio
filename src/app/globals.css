@@ -24,7 +24,9 @@
     --tgiant: clamp(40px, 8vw, 80px);
 }
 
+html,
 body {
+    scroll-behavior: smooth !important;
     @apply bg-background text-light;
 }
 
